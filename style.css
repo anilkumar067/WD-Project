@@ -25,69 +25,69 @@
 } */
 @keyframes frontPagePhotoChangeFood {
     0% {
-        background-image:url(./All_Images/Laccha-Paratha.jpg);
+        background-image:url(../All_Images/Laccha-Paratha.jpg);
         background-size: cover;
     }
     14%{
-        background-image:url(./All_Images/Pudi_dhaba-cover.jpg);
+        background-image:url(../All_Images/Pudi_dhaba-cover.jpg);
         background-size: cover;
     }
     28%{
-        background-image:url(./All_Images/Dhaba_frontImage.jpg);
+        background-image:url(../All_Images/Dhaba_frontImage.jpg);
         background-size: cover;
     }
     42%{
-        background-image:url(./All_Images/Roti_chaval_.jpg);
+        background-image:url(../All_Images/Roti_chaval_.jpg);
         background-size: cover;
     }
     56%{
-        background-image:url(./All_Images/Shahi\paneer_.jpg);
+        background-image:url(../All_Images/Shahi\paneer_.jpg);
         background-size: cover;
     }
     70%{
-        background-image:url(./All_Images/Sweets_istockp.jpg);
+        background-image:url(../All_Images/Sweets_istockp.jpg);
         background-size: cover;
     }
     85%{
-        background-image:url(./All_Images/Dal_Fry_Tadka.jpg);
+        background-image:url(../All_Images/Dal_Fry_Tadka.jpg);
         background-size: cover;
     }
     100%{
-        background-image:url(./All_Images/paneer_varieties_best.jpg);
+        background-image:url(../All_Images/paneer_varieties_best.jpg);
         background-size: cover;
     }
 }
 @keyframes frontPagePhotoChangeRoom {
     0% {
-        background-image:url(./All_Images/Vip_Room2.jpg);
+        background-image:url(../All_Images/Vip_Room2.jpg);
         background-size: cover;
     }
     14%{
-        background-image:url(./All_Images/Vip_Room.jpg);
+        background-image:url(../All_Images/Vip_Room.jpg);
         background-size: cover;
     }
     28%{
-        background-image:url(./All_Images/Double_Bad_AC.jpg);
+        background-image:url(../All_Images/Double_Bad_AC.jpg);
         background-size: cover;
     }
     42%{
-        background-image:url(./All_Images/single_AC.jpg);
+        background-image:url(../All_Images/single_AC.jpg);
         background-size: cover;
     }
     56%{
-        background-image:url(./All_Images/Non_AC_Double_Bad.jpg);
+        background-image:url(../All_Images/Non_AC_Double_Bad.jpg);
         background-size: cover;
     }
     70%{
-        background-image:url(./All_Images/Non_AC_Single.png);
+        background-image:url(../All_Images/Non_AC_Single.png);
         background-size: cover;
     }
     85%{
-        background-image:url(./All_Images/DoubleBad_coupleRoom_NonAC.jpg);
+        background-image:url(../All_Images/DoubleBad_coupleRoom_NonAC.jpg);
         background-size: cover;
     }
     100%{
-        background-image:url(./All_Images/Double_Bad_coupleRoom_AC.jpg);
+        background-image:url(../All_Images/Double_Bad_coupleRoom_AC.jpg);
         background-size: cover;
     }
 }
