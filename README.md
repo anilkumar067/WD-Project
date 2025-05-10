@@ -1,4 +1,4 @@
-[Click here to visit the live website](https://anilkumar067.github.io/WD-Project/)
+[Click here to visit the live website](index.html)
 open `index.html`
 
 
