@@ -1,0 +1,55 @@
+
+.body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* color:#eaf4fe ; */
+    background-color: #eaf4fe;
+}
+.order{
+    height: 600px;
+    width: 600px;
+    background-color: #eaf4fe;
+    
+}
+.gif{
+    /* border-radius: 50%; */
+    margin-left: 75px;
+    margin-top: 10px;
+    height: 300px;
+    width: 400px;
+    background-image: url(../All_Images/oder.gif);
+    background-size: cover;
+}
+
+.quate1{
+    margin-top: 20px;
+         margin-left: 21%;
+    font-size: 40px;
+    font-weight: bold;
+    color: lightgreen;
+
+}
+.quate2{
+    font-size: 25px;
+    color: orange;
+    margin-left: 40px;
+}
+.hom{
+ margin-left: 200px;
+ background-color: rgb(93, 156, 93);
+ font-size: 25px;
+ transition:transform 0.3 ease;
+}
+.hom:hover{
+    cursor:pointer;
+    transform:translateY(-5px) scale(1.05) rotateX(5deg);
+    background-color: orange;
+   
+}
+a {
+    text-decoration: none;
+    color: inherit;
+  }

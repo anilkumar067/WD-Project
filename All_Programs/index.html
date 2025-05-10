@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SU Swagatam !</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="front-page">
+        <div class="WebsiteFrontLogo">
+
+        </div> 
+        <div class="wellcome">
+            <h1>Welcome To Anand Sekhavati</h1>
+            <h3>Restaurant & Hotel</h3>
+        </div>
+        
+        <div id="userinfoAnimationMoving" >
+            <div id="userinfoMovingdiv">
+                <h2 class="userinfoMovingdivheading2">Where every stay feels like home and every meal is a masterpiece. !</h2>
+                <h3 class="userinfoMovingdivheading3">"Stay. Eat. Chill. Repeat "</h3>
+                <h1 class="userinfoMovingdivheading1">Go For !</h1>
+                <button class="buttons" id="btn1">Room Booking</button>
+                <button class="buttons hiddenButton" id="btn2">Table Booking</button>
+                
+            </div>
+            <div id="userinfoForRoom">
+                <form action="BHotel_Front_Page.html">
+                    <h2 id="userinfoForBookingHeading">Book Your Room!</h2>
+                    <div id="ourinfosocialmediaLinks">
+                        <div class="ourinfosocialmediaLinksLogo"><i class="fa-brands fa-google logosizeinhance"></i></div>
+                        <div class="ourinfosocialmediaLinksLogo"><i class="fa-brands fa-facebook logosizeinhance"></i></div>
+                        <div class="ourinfosocialmediaLinksLogo"><i class="fa-brands fa-square-instagram logosizeinhance"></i></div>
+                        <div class="ourinfosocialmediaLinksLogo"><i class="fa-brands fa-square-x-twitter logosizeinhance"></i></div>
+                    </div>
+                    <div class="input">
+                        <input type="text" pattern="[A-Za-z ]+" placeholder="Enter Name" required>
+                    </div>
+                    <div class="input">
+                        <input type="tel" pattern="^\d{10}$" placeholder="Enter Mobile No" required>
+                    </div>
+                    <div class="input">
+                        <input type="text" name="aadhar" pattern="^\d{12}$" placeholder="Aadhar No" required>
+                    </div>
+                    <div class="input">
+                        <input type="email"  placeholder="E-mail" required>
+                    </div>
+                        <button class="button">Book</button>
+                </form>
+            </div>
+            <div id="userinfoForBooking">
+
+                <form action="BFrontent_.html">
+                    <h2 id="userinfoForBookingHeading">Book Your Table!</h2>
+                    <div id="ourinfosocialmediaLinks">
+                        <div class="ourinfosocialmediaLinksLogo"><i class="fa-brands fa-google logosizeinhance"></i></div>
+                        <div class="ourinfosocialmediaLinksLogo"><i class="fa-brands fa-facebook logosizeinhance"></i></div>
+                        <div class="ourinfosocialmediaLinksLogo"><i class="fa-brands fa-square-instagram logosizeinhance"></i></div>
+                        <div class="ourinfosocialmediaLinksLogo"><i class="fa-brands fa-square-x-twitter logosizeinhance"></i></div>
+                    </div>
+                    <div class="input">
+                        <input type="text" pattern="[A-Za-z ]+" placeholder="Enter Name" required>
+                    </div>
+                    <div class="input">
+                        <input type="tel" pattern="^\d{10}$" placeholder="Enter Mobile No" required>
+                    </div>
+                    <div class="input">
+                        <input type="number" min="1" max="25" placeholder="Table Number" required>
+                    </div>
+                    <div class="input">
+                        <input type="number" min='1' max='6' placeholder="No of Guests" required>
+                    </div>
+                        <button class="button">Book</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

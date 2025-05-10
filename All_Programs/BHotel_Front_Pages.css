@@ -1,0 +1,209 @@
+*{
+    padding:0;
+    margin:0;
+    overflow-x:hidden;
+    overscroll-behavior: none; 
+}
+#frontHeader{
+    height:70px;
+    width:100%;
+    background-color:rgb(255, 251, 241);
+
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    position:fixed;
+    top:0px;
+}
+#frontHeader h1{
+    margin-left:50px;
+    cursor:pointer;
+    text-shadow: 1px 0.5px 0.2px  rgba(0,0,0,0.4);
+    
+}
+#frontHeader img{
+  height:70px;
+  margin-left:100px;
+}
+#frontHeader h1 i{
+    overflow:hidden;
+}
+.frontHeaderanchorTags{
+    color:black;
+    text-decoration: none;
+    padding:0 5px 0 5px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+.frontHeaderanchorTags:hover{
+    background-color: rgba(193, 146, 107,0.4);
+}
+#frontHeaderBookNowButton{
+    font-size: 18px;
+    padding:10px;
+    margin:0 50px 0 200px;
+    color:white;
+    background-color: rgba(0,0,0,0.7);
+    border-radius:5px;
+}
+#frontHeaderBookNowButton:hover{
+    background-color: #06223e;
+    cursor:pointer;
+}
+#foodServicepageparjjanekabutton{
+  text-decoration: none;
+  font-size: 18px;
+  padding:10px;
+  color:white;
+  background-color: rgb(83, 48, 54);
+  border-radius: 5px;
+}
+
+#maindivOne{
+    
+    height:650px;
+    width:1300px;
+    background-color: rgb(158, 33, 33);
+    margin:90px 0 0 120px;
+    border-radius: 10px;
+    animation:backGrndImg 9s infinite;
+    background-size: cover;
+    padding-top:200px;
+}
+#maindivOne h1,h2,h5{
+    padding-left:400px;
+    color:white;
+}
+#maindivOne h2{
+    margin-bottom: 20px;
+}
+@keyframes backGrndImg {
+    0%{
+        background-image: url(../All_Images/Room_Img1.jpg);
+    }
+    33%{
+        background-image: url(../All_Images/Room_Img2.jpg);
+    }
+    67%{
+        background-image: url(../All_Images/Room_Img3.jpg);
+    }
+    100%{
+        background-image: url(../All_Images/Room_Img4.jpg);
+    }
+    
+}
+#maindivOneInformationPage{
+    width:40%;
+    margin-left:25%;
+    display:flex;
+    justify-content: space-around; 
+}
+#maindivOneInformationPage select{
+    margin-right:10px;
+    height: 45px;
+}
+#maindivOneInformationPage button{
+    cursor:pointer;
+}
+#maindivOneInformationPage button,input,select{
+    padding:5px;
+    border-radius: 5px;
+}
+.room-types {
+    padding: 40px;
+    text-align: center;
+  }
+  .room-types h2{
+    padding-left:0px;
+  }
+  
+  .rooms {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .room-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 250px;
+    border-radius: 8px;
+  }
+  
+  .room-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  .room-card p{
+    padding-bottom:10px;
+  }
+  
+  .room-card a {
+    margin-top: 10px;
+    background: #002f5f;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color:white;
+    text-decoration: none;
+  }
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px;
+  background: #f8f8f8;
+}
+
+.feature {
+  text-align: center;
+  cursor:pointer;
+  padding:0 10px 0 10px;
+}  
+.features a{
+  text-decoration: none;
+  color:black;
+}
+
+#idforfeatureFoddService:hover{
+  background-color: rgba(71, 121, 145,0.5);
+  border-radius: 5px;
+  /* font-size: 20px; */
+}
+.gallery-testimonials {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .testimonial {
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-form button {
+    background: #002f5f;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+  }
