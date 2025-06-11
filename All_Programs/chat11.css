@@ -206,14 +206,14 @@ a {
 }
 .diss1{
 background-image: url(../All_Images/cooler.jpg);
-
+border-radius: 10px;
 background-size: cover;
 transition:transform 1.0s ease;
 }
 .diss1:hover{
     cursor:pointer;
-    transform:translatez(20px) scale(1.3) rotateX(0deg);}
-.diss2{
+    transform:translatez(20px) scale(1.1) rotateX(0deg);}
+.diss2{border-radius: 10px;
   background-image: url(../All_Images/Banana-Shake-Recipe-Featured.jpg);
   background-size: cover;
 
@@ -221,8 +221,8 @@ transition:transform 1.0s ease;
 }
 .diss2:hover{
     cursor:pointer;
-    transform:translatez(20px) scale(1.3) rotateX(0deg);}
-.diss3{
+    transform:translatez(20px) scale(1.1) rotateX(0deg);}
+.diss3{border-radius: 10px;
   background-image: url(../All_Images/Cold-Coffee-2-3-500x500.jpg);
   background-size: cover;
 
@@ -230,9 +230,9 @@ transition:transform 1.0s ease;
 }
 .diss3:hover{
     cursor:pointer;
-    transform:translatez(20px) scale(1.3) rotateX(0deg);}
+    transform:translatez(20px) scale(1.1) rotateX(0deg);}
 .diss4
-{
+{border-radius: 10px;
   background-image: url(../All_Images/orange-juice.jpg);
   background-size: cover;
 
@@ -240,7 +240,7 @@ transition:transform 1.0s ease;
 }
 .diss4:hover{
     cursor:pointer;
-    transform:translatez(20px) scale(1.3) rotateX(0deg);}
+    transform:translatez(20px) scale(1.1) rotateX(0deg);}
 
 .rate{
   /* display: flex; */

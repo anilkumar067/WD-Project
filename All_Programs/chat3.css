@@ -201,6 +201,11 @@ cursor: pointer;
 background-size: cover;
 border-radius: 10px;
 
+transition:transform .5s ease;
+}
+.diss1:hover{
+    cursor:pointer;
+    transform:translatez(20px) scale(1.1) rotateX(0deg);
 }
 a {
   text-decoration: none;
@@ -211,17 +216,37 @@ a {
   background-size: cover;
   cursor: pointer;
   border-radius: 10px;
-}.diss3{
+transition:transform .5s ease;
+}
+.diss2:hover{
+    cursor:pointer;
+    transform:translatez(20px) scale(1.1) rotateX(0deg);
+}
+
+.diss3{
   background-image: url(../All_Images/rasmalai.jpg);
   background-size: cover;
   cursor: pointer;
   border-radius: 10px;
-}.diss4
+transition:transform .5s ease;
+}
+.diss3:hover{
+    cursor:pointer;
+    transform:translatez(20px) scale(1.1) rotateX(0deg);
+}
+
+.diss4
 {
   background-image: url(../All_Images/gulab-jamun.jpg);
   background-size: cover;
   cursor: pointer;
   border-radius: 10px;
+
+  transition:transform .5s ease;
+}
+.diss4:hover{
+    cursor:pointer;
+    transform:translatez(20px) scale(1.1) rotateX(0deg);
 }
 .rate{
   display: grid;

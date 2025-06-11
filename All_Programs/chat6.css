@@ -204,25 +204,25 @@ body {
   
   /* margin-top: 10px; */
 }
-.diss1{
+.diss1{border-radius: 10px;
 background-image: url(../All_Images/tandoori-roti.jpeg);
 background-size: cover;
 
-transition:transform 1.0s ease;
+transition:transform .5s ease;
 }
-.diss4:hover{
+.diss1:hover{
     cursor:pointer;
-    transform:translatez(20px) scale(1.3) rotateX(0deg);
+    transform:translatez(20px) scale(1.1) rotateX(0deg);
 }
-.diss2{
+.diss2{border-radius: 10px;
   background-image: url(../All_Images/nan.jpg);
   background-size: cover;
 
-  transition:transform 1.0s ease;
+transition:transform .5s ease;
 }
-.diss4:hover{
+.diss2:hover{
     cursor:pointer;
-    transform:translatez(20px) scale(1.3) rotateX(0deg);
+    transform:translatez(20px) scale(1.1) rotateX(0deg);
 }
 /* }.diss3{
   background-image: url(bandra-special-thali.jpg);

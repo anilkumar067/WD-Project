@@ -203,51 +203,50 @@ body {
   
   /* margin-top: 10px; */
 }
-.diss1{
+.diss1{border-radius: 10px;
 background-image: url(../All_Images/combo1.jpeg);
 
 background-size: cover;
 
 
-transition:transform 1.0s ease;
+transition:transform .5s ease;
 }
 .diss1:hover{
     cursor:pointer;
-    transform:translatez(20px) scale(1.3) rotateX(0deg);
+    transform:translatez(20px) scale(1.1) rotateX(0deg);
 }
-.diss2{
+.diss2{border-radius: 10px;
   background-image: url(../All_Images/combo2.jpeg);
   background-size: cover;
 
-transition:transform 1.0s ease;
+transition:transform .5s ease;
 }
 .diss2:hover{
     cursor:pointer;
-    transform:translatez(20px) scale(1.3) rotateX(0deg);
+    transform:translatez(20px) scale(1.1) rotateX(0deg);
 }
 
-.diss3{
+.diss3{border-radius: 10px;
   background-image: url(../All_Images/combo4.jpeg);
   background-size: cover;
 
 /* transition:transform 1.0s ease; */
-transition: background-color 0.3s ease, transform 0.3s ease;
-
+transition:transform .5s ease;
 }
-.diss3:active{
+.diss3:hover{
     cursor:pointer;
-    transform:translatez(20px) scale(1.3) rotateX(0deg);
+    transform:translatez(20px) scale(1.1) rotateX(0deg);
 }
 .diss4
-{
+{border-radius: 10px;
   background-image: url(../All_Images/chaval.png);
   background-size: cover;
 
-transition:transform 1.0s ease;
+transition:transform .5s ease;
 }
 .diss4:hover{
     cursor:pointer;
-    transform:translatez(20px) scale(1.3) rotateX(0deg);
+    transform:translatez(20px) scale(1.1) rotateX(0deg);
 }
 .rate{
   /* display: flex; */
