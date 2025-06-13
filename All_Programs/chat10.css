@@ -197,6 +197,16 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+.quantity{
+  height: 20px ;
+  width: 100px ;
+  background-color: orange;
+  border-radius: 5px ;
+}
+.quantity:hover{
+  background-color: rgb(140, 227, 210);
+}
 .dd{
   height:250px ;
   width: 340px;

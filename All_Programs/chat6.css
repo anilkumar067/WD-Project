@@ -185,6 +185,16 @@ body {
   /* align-items: center; */
   /* gap: 20px; */
 }
+
+.quantity{
+  height: 20px ;
+  width: 100px ;
+  background-color: orange;
+  border-radius: 5px ;
+}
+.quantity:hover{
+  background-color: rgb(140, 227, 210);
+}
 .diss {
   display: flex;
   /* align-items: center; */
