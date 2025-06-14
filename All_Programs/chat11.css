@@ -204,12 +204,15 @@ a {
   
   /* margin-top: 10px; */
 }
-
+.contact{
+  background-color: #0f1111;
+  width: fit-content ;
+}
 .quantity{
   height: 20px ;
   width: 100px ;
   background-color: orange;
-  border-radius: 5px ;
+  border-radius: 10px ;
 }
 .quantity:hover{
   background-color: rgb(140, 227, 210);
@@ -265,15 +268,27 @@ transition:transform 1.0s ease;
   /* margin-left: 10px; */
 }
 .quantity{
-     height: 30px;
-     width: 60px;
-     margin-left: 10px;
+  height: 20px ;
+  width: 100px ;
+  background-color: orange;
+  border-radius: 5px ;
+  font-weight: bold;
+  font-size: 14px;
+  transform: all 0.5s ease-in ;
+}
+.quantity:hover{
+  transform:translatez(20px) scale(1.1) rotateX(0deg);
+  background-color: rgb(140, 227, 210);
 }
 .rate button{
-  height: 40px;
-  width: 130px;
+  padding:5px 10px 5px 10px;
+  border-radius: 5px;
+  font-size: 20px;
   background-color: rgb(64, 185, 94);
+  transition:transform .5s ease;
 }
 .rate button:hover{
   background-color: orange;
+   transform:translatez(20px) scale(1.1) rotateX(0deg);
+
 }

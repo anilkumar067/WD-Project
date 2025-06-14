@@ -232,7 +232,7 @@ transition:transform .5s ease;
     cursor:pointer;
     transform:translatez(15px) scale(1.1) rotateX(0deg);
 }
-.diss3{border-radius: 10px;
+.diss3{border-radius: 5px;
   background-image: url(../All_Images/bandra-special-thali.jpg);
   background-size: cover;
   transition:transform .5s ease;
@@ -242,7 +242,7 @@ transition:transform .5s ease;
 
 }
 .diss4
-{border-radius: 10px;
+{ border-radius: 10px;
   background-image: url(../All_Images/south-special.jpg);
   background-size: cover;
   transition:transform .5s ease;
@@ -254,8 +254,8 @@ transition:transform .5s ease;
   /* display: flex; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  height: 110px;
-  width:340px ;
+  height: 110px ;
+  width:  340px ;
 
 }
 .rate p{
@@ -263,15 +263,27 @@ transition:transform .5s ease;
   /* margin-left: 10px; */
 }
 .quantity{
-     height: 30px;
-     width: 60px;
-     margin-left: 10px;
+  height: 20px ;
+  width: 100px ;
+  background-color: orange;
+  border-radius: 5px ;
+  font-weight: bold;
+  font-size: 14px;
+  transform: all 0.5s ease-in ;
+}
+.quantity:hover{
+  transform:translatez(20px) scale(1.1) rotateX(0deg);
+  background-color: rgb(140, 227, 210);
 }
 .rate button{
-  height: 40px;
-  width: 130px;
+  padding:5px 10px 5px 10px;
+  border-radius: 5px;
+  font-size: 20px;
   background-color: rgb(64, 185, 94);
+  transition:transform .5s ease;
 }
 .rate button:hover{
   background-color: orange;
+   transform:translatez(20px) scale(1.1) rotateX(0deg);
+
 }
