@@ -30,8 +30,8 @@ body {
 .nav-logo{
     background-image: url(../All_Images/logo04.png);
     background-size: cover;  
-    height: 60px;
-    width: 120px;
+   height: 65px;
+    width:160px;
   /* padding: 1px 8px 0px 6px; */
     margin-left: 150px;
     border-radius: 4px;

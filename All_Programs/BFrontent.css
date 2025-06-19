@@ -4,7 +4,7 @@
     font-family: Arial, sans-serif;
     /* border: border-box; */
     overflow-x:hidden;
-    overscroll-behavior: none;
+    overscroll-behavior: smooth;
 }
 .nav-bar{
 
@@ -36,8 +36,18 @@ a {
 }
 body{
     margin-top:106px;
+    /* scroll-behavior: smooth; */
 }
 
+.food-planner button{
+    background-color: transparent;
+    color: aliceblue;
+    
+}
+.food-planner button:hover{
+    background-color: orange
+    
+}
 .border{
     border: 1.5px solid transparent;
 }
@@ -274,12 +284,17 @@ body{
 
 }
 .planne{
+
+    height: 35px ;
+    width: 70px ;
     background-color:  rgb(211, 111, 18);
     color: white;
     border: none;
     font-size: 18px;
     border-radius: 10px;
     cursor: pointer;
+    /* position:relative; */
+    margin-right: 30px;
 }
 .planne:hover {
     background-color: darkgreen;

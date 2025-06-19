@@ -3,6 +3,7 @@
     margin: 0;
     font-family: Arial, sans-serif;
     border: border-box;
+    
 }
 .nav-bar{
 
@@ -30,7 +31,7 @@ body {
 .nav-logo{
     background-image: url(../All_Images/logo04.png);
     background-size: cover;  
-      height: 65px;
+     height: 65px;
     width:160px;
   /* padding: 1px 8px 0px 6px; */
     margin-left: 150px;
@@ -159,7 +160,10 @@ body {
   .phone i {
     color: #fff;
   }
-  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
   .copy-right{
     color: aliceblue;
     height: 60px;
@@ -182,6 +186,16 @@ body {
   /* align-items: center; */
   /* gap: 20px; */
 }
+
+.quantity{
+  height: 20px ;
+  width: 100px ;
+  background-color: orange;
+  border-radius: 5px ;
+}
+.quantity:hover{
+  background-color: rgb(140, 227, 210);
+}
 .diss {
   display: flex;
   /* align-items: center; */
@@ -193,66 +207,42 @@ body {
   margin-top: 10px;
   
 }
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-.quantity{
-  height: 20px ;
-  width: 100px ;
-  background-color: orange;
-  border-radius: 5px ;
-}
-.quantity:hover{
-  background-color: rgb(140, 227, 210);
-}
 .dd{
-  height:250px ;
-  width: 340px;
-  background-color: white;
+  
+   height:250px ;
+   width: 340px;
+   background-color: white;
   
   /* margin-top: 10px; */
 }
 .diss1{border-radius: 10px;
-background-image: url(../All_Images/pannirtikka.jpg);
+background-image: url(../All_Images/tandoori-roti.jpeg);
 background-size: cover;
 
-transition:transform 1.0s ease;
+transition:transform .5s ease;
 }
 .diss1:hover{
     cursor:pointer;
-    transform:translatez(20px) scale(1.1) rotateX(0deg);}
+    transform:translatez(20px) scale(1.1) rotateX(0deg);
+}
 .diss2{border-radius: 10px;
-  background-image: url(../All_Images/momos.jpg);
+  background-image: url(../All_Images/nan.jpg);
   background-size: cover;
 
-transition:transform 1.0s ease;
+transition:transform .5s ease;
 }
 .diss2:hover{
     cursor:pointer;
-    transform:translatez(20px) scale(1.1) rotateX(0deg);}
-.diss3{border-radius: 10px;
-  background-image: url(../All_Images/Copycat-McDonalds-French-Fries-.jpg);
-  background-size: cover;
-
-transition:transform 1.0s ease;
+    transform:translatez(20px) scale(1.1) rotateX(0deg);
 }
-.diss3:hover{
-    cursor:pointer;
-    transform:translatez(20px) scale(1.1) rotateX(0deg);}
-.diss4
+/* }.diss3{
+  background-image: url(bandra-special-thali.jpg);
+  background-size: cover;
+}.diss4
 {
-border-radius: 10px;
-
-  background-image: url(../All_Images/aloo\ tikki.jpg);
+  background-image: url(south-special.jpg);
   background-size: cover;
-
-transition:transform 1.0s ease;
-}
-.diss4:hover{
-    cursor:pointer;
-    transform:translatez(20px) scale(1.1) rotateX(0deg);}
+} */
 .rate{
   /* display: flex; */
   display: grid;
@@ -289,4 +279,10 @@ transition:transform 1.0s ease;
   background-color: orange;
    transform:translatez(20px) scale(1.1) rotateX(0deg);
 
+}
+.con
+{
+  background-color: wheat;
+  height:350px;
+  
 }
