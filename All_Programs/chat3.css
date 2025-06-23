@@ -259,17 +259,19 @@ transition:transform .5s ease;
   margin-top: 20px;
 }
 .quantity{
+  padding: 7px;
+  background-color: rgb(96, 189, 85);
   height: 20px ;
   width: 100px ;
-  background-color: orange;
   border-radius: 5px ;
   font-weight: bold;
+  color: black;
   font-size: 14px;
   transform: all 0.5s ease-in ;
 }
 .quantity:hover{
   transform:translatez(20px) scale(1.1) rotateX(0deg);
-  background-color: rgb(140, 227, 210);
+  background-color: orange;
 }
 .rate button{
   padding:5px 10px 5px 10px;

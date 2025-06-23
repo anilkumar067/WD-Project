@@ -199,6 +199,8 @@ a {
 }
 
 .quantity{
+  padding: 7px;
+  background-color: rgb(96, 189, 85);
   height: 20px ;
   width: 100px ;
   background-color: orange;
@@ -209,7 +211,7 @@ a {
 }
 .quantity:hover{
   transform:translatez(20px) scale(1.1) rotateX(0deg);
-  background-color: rgb(140, 227, 210);
+  background-color: orange;
 }
 .dd{
   height:250px ;
